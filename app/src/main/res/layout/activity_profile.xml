@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wael.elmahask.chatapp.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/profileboy"
+        android:contentDescription="@string/profileimage"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pro"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/display_profile_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/profileboy" />
+
+    <TextView
+        android:id="@+id/display_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/display_total_friend"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/dispaly_profile_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/display_profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/display_total_friend"
+        android:layout_alignStart="@+id/pro"
+        android:layout_marginStart="5dp"
+        android:text="@string/current_user_status"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/display_total_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profile_send_request_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/total_friends"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/profile_send_request_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profile_decline_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/send_friend_request"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/profile_decline_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/decline_friend_request"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "60841263507",
+    "firebase_url": "https://chatapp-c4037.firebaseio.com",
+    "project_id": "chatapp-c4037",
+    "storage_bucket": "chatapp-c4037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60841263507:android:b99a9b72d04e7f81",
+        "android_client_info": {
+          "package_name": "com.wael.elmahask.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60841263507-obu7kc80cjjm73gmfohphrqc5jk3oknv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wael.elmahask.chatapp",
+            "certificate_hash": "58dfffb336cdf26c974cf5a7876edc8ace31fcdf"
+          }
+        },
+        {
+          "client_id": "60841263507-ds7uat24aa1psik2gs2sfnsjflp56ige.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxbGvMDF5Nn9ZKPkIAXUovne618tBqEAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60841263507-ds7uat24aa1psik2gs2sfnsjflp56ige.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

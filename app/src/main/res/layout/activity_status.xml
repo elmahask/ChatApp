@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wael.elmahask.chatapp.StatusActivity">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/status_appBar"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/status_appBar"
+        android:layout_marginTop="40dp"
+        android:id="@+id/status_input">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:hint="@string/write_your_status" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/status_save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/status_input"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/save_status"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wael.elmahask.chatapp.StartActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/welcome_to_chatapp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/create_new_account"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_reg_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/login_to_account"
+        android:textSize="18sp" />
+</RelativeLayout>

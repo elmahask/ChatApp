@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="main_page">this is main page</string>
+    <string name="welcome_to_chatapp">Welcome to ChatApp</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="login_to_account">Login To Account</string>
+    <string name="your_e_mail">Your e-mail</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_out">Log out</string>
+    <string name="all_user">All User</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="toolBar_create_account">Create Account</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_image">Change Image</string>
+    <string name="change_status">Change Status</string>
+    <string name="write_your_status">Write Your Status</string>
+    <string name="save_status">Save Status</string>
+    <string name="users_name">Users Name</string>
+    <string name="users_status">Users Status</string>
+    <string name="dispaly_profile_name">Dispaly Profile Name</string>
+    <string name="current_user_status">Current User Status</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="send_friend_request">send friend request</string>
+    <string name="profileimage">ProfileImage</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="cancel_friend_request">Cancel Friend Request</string>
+    <string name="accept_frienf_request">Accept Friend Request</string>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>
+

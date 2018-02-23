@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.wael.elmahask.chatapp.SettingActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/profileboy">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <Button
+        android:id="@+id/chang_profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/change_status_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/change_image" />
+
+    <Button
+        android:id="@+id/change_status_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/change_status" />
+
+    <TextView
+        android:id="@+id/mDisplay_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Display Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/mDisplay_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mDisplay_profile_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        tools:text="Hi there, I'm using ChatApp" />
+
+</RelativeLayout>
